@@ -58,8 +58,8 @@ namespace Jellyfin.Plugin.Request_Auth
             try
             {
                 HttpWebRequest r = (HttpWebRequest)WebRequest.Create(_config.RequestURL);
-                string cookieName = password.Split('=')[0];
-                string cookieToken = password.Split('=')[1];
+                string cookieName = password.Split('=')[0].Trim();
+                string cookieToken = password.Split('=')[1].Trim();
                 Uri uri = new Uri(_config.RequestURL);
                 Cookie cookie = new Cookie(cookieName, cookieToken, "/", uri.Host);
                 r.CookieContainer = new CookieContainer();
