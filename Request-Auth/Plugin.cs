@@ -6,7 +6,7 @@ using MediaBrowser.Model.Plugins;
 using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
 
-namespace Jellyfin.Plugin.LDAP_Auth
+namespace Jellyfin.Plugin.Request_Auth
 {
     public class Plugin : BasePlugin<PluginConfiguration>, IHasWebPages
     {
@@ -17,8 +17,8 @@ namespace Jellyfin.Plugin.LDAP_Auth
             Logger = logger;
         }
 
-        public override string Name => "LDAP-Auth";
-        public override Guid Id => Guid.Parse("958aad66-3784-4d2a-b89a-a7b6fab6e25c");
+        public override string Name => "Request-Auth";
+        public override Guid Id => Guid.Parse("16613135-721D-4A39-9396-46D80939CCBB");
 
         public IEnumerable<PluginPageInfo> GetPages()
         {

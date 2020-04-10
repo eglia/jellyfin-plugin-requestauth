@@ -1,3 +1,3 @@
-# jellyfin-plugin-ldapauth
+# jellyfin-plugin-requestauth
 
-LDAP authentication for Jellyfin Media Server. JelLDAP, if you will.
+Request authentication for Jellyfin Media Server. Similar to nginx auth_request.

@@ -2,9 +2,10 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/LDAP-Auth/v15/Server/sqlite3
+/.vs/Request-Auth/v16/Server/sqlite3
 */obj
 */bin
-/LDAP-Auth.sln.DotSettings.user
+/Request-Auth.sln.DotSettings.user
 /bin/Debug/netstandard2.0
-/.vs/LDAP-Auth/v15
+/.vs/Request-Auth/v16
+.vs/Request-Auth/DesignTimeBuild/.dtbcache.v2
