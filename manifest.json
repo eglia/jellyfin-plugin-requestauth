@@ -8,12 +8,12 @@
         "overview": "Jellyfin authentication via HTTP request",
         "versions": [
             {
-                "checksum": "9d22acda402117f092da3c0276998496",
+                "checksum": "dbe35bc34f57078f7748e157c03b3432",
                 "changelog": "Update for 10.6.0\n",
                 "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://github.com/eglia/jellyfin-plugin-requestauth/releases/download/1.1.0/Request-Auth.zip",
+                "sourceUrl": "https://github.com/eglia/jellyfin-plugin-requestauth/releases/download/1.1.1/Request-Auth.zip",
                 "timestamp": "2020-07-20T08:02:58Z",
-                "version": "1.1.0.0"
+                "version": "1.1.1.0"
             }
         ]
     }
