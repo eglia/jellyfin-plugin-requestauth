@@ -1,0 +1,20 @@
+[
+    {
+        "category": "Authentication",
+        "guid": "16613135-721D-4A39-9396-46D80939CCBB",
+        "name": "Auth-Request",
+        "description": "This plugin allows authentication via an external HTTP request, similar to nginx auth-request.",
+        "owner": "jellyfin",
+        "overview": "Jellyfin authentication via HTTP request",
+        "versions": [
+            {
+                "checksum": "9d22acda402117f092da3c0276998496",
+                "changelog": "Update for 10.6.0\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/eglia/jellyfin-plugin-requestauth/releases/download/1.1.0/Request-Auth.zip",
+                "timestamp": "2020-07-20T08:02:58Z",
+                "version": "1.1.0.0"
+            }
+        ]
+    }
+]
