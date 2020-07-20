@@ -8,19 +8,16 @@ using MediaBrowser.Controller.Authentication;
 using MediaBrowser.Model.Cryptography;
 using Jellyfin.Data.Entities;
 using System.Threading.Tasks;
-using Microsoft.Extensions.Logging;
 
 namespace Jellyfin.Plugin.Request_Auth
 {
     public class RequestAuthenticationProviderPlugin : IAuthenticationProvider, IRequiresResolvedUser
     {
         private readonly PluginConfiguration _config;
-        private readonly ILogger _logger;
         private readonly ICryptoProvider _cryptographyProvider;
         public RequestAuthenticationProviderPlugin(ICryptoProvider cryptographyProvider)
         {
             _config = Plugin.Instance.Configuration;
-            _logger = Plugin.Logger;
             _cryptographyProvider = cryptographyProvider;
         }
 

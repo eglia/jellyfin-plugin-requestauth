@@ -12,9 +12,8 @@ namespace Jellyfin.Plugin.Request_Auth
     {
         public static Plugin Instance { get; private set; }
         public static ILogger Logger{get; private set;}
-        public Plugin(IApplicationPaths applicationPaths, IXmlSerializer xmlSerializer, ILogger logger) : base(applicationPaths, xmlSerializer){
+        public Plugin(IApplicationPaths applicationPaths, IXmlSerializer xmlSerializer) : base(applicationPaths, xmlSerializer){
             Instance = this;
-            Logger = logger;
         }
 
         public override string Name => "Request-Auth";
