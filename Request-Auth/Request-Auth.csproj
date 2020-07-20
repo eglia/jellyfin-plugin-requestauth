@@ -2,8 +2,9 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <RootNamespace>Jellyfin.Plugin.Request_Auth</RootNamespace>
-    <AssemblyVersion>1.0.0</AssemblyVersion>
-    <FileVersion>1.0.0</FileVersion>
+    <AssemblyVersion>1.1.0</AssemblyVersion>
+    <FileVersion>1.1.0</FileVersion>
+    <Version>1.1.0</Version>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Config\configPage.html" />
@@ -13,6 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Jellyfin.Controller" Version="10.5.3" />
+    <PackageReference Include="Jellyfin.Controller" Version="10.6.0" />
   </ItemGroup>
 </Project>

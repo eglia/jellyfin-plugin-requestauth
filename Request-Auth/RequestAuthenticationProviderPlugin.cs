@@ -5,9 +5,8 @@ using System.Text;
 using MediaBrowser.Common;
 using MediaBrowser.Common.Cryptography;
 using MediaBrowser.Controller.Authentication;
-using MediaBrowser.Controller.Library;
-using MediaBrowser.Controller.Entities;
 using MediaBrowser.Model.Cryptography;
+using Jellyfin.Data.Entities;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 
