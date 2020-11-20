@@ -2,7 +2,7 @@
     {
         "category": "Authentication",
         "guid": "16613135-721D-4A39-9396-46D80939CCBB",
-        "name": "Auth-Request",
+        "name": "Request-Auth",
         "description": "This plugin allows authentication via an external HTTP request, similar to nginx auth-request.",
         "owner": "jellyfin",
         "overview": "Jellyfin authentication via HTTP request",
